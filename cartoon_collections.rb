@@ -4,6 +4,8 @@ def roll_call_dwarves(dwarves)
   end
 end
 
+["Dopey", "Happy", "Sad", "Grumpy", "sleepy", "Angry"]
+
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect! do |w| 
   w.capitalize + "!"
