@@ -18,6 +18,6 @@ end
 
 def find_the_cheese(food)
   food.find do |num|
-    num == "cheddar" || num == "gouda" || num == "camembert"
+    num == "cheddar" || num == "gouda" || num == "camembert" || num == "swiss"
   end
 end
