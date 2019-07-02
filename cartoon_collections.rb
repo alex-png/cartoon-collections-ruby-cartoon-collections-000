@@ -1,8 +1,9 @@
 def roll_call_dwarves(dwarves)
   
   dwarves.each_with_index do |item, index|
-  new_array =  "#{index + 1}.#{item}"
-  new_array = new_array.length
+   if index < dwarves.length / 2
+     puts "#{index + 1}.#{item}"
+   end
   end
 end
 
