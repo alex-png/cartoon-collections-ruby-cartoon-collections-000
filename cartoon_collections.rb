@@ -23,3 +23,15 @@ def find_the_cheese(food)
 end
 array = "banana", "apple", "cheddar"
 array_2 = "banana", "cheddar", "gouda" 
+
+
+
+def words_that_start_with_b(words)
+  words.select do |word| 
+    word[0] == "b" || word[0] == "B"
+  end
+end
+
+words_that_start_with_b(["brian", "alex", "prince"]) #=> ["brian"]
+words_that_start_with_b(["banana", "berry", "cherry"]) #=> ["banana", "berry"]
+words_that_start_with_b(["alex", "james", "joe"]) #=> []
